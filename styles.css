@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#speed-buttons {
+    display: inline-block;
+}
+
+.speed-button {
+    background-color: #777;
+}
+
+#try-again-button {
+    background-color: #f00;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-container {
+    margin-top: 60px; /* Adjusted margin to make space for the navbar */
+    text-align: center;
+}
